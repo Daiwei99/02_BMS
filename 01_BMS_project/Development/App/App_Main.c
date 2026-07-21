@@ -1,5 +1,4 @@
 #include "App_Main.h"
-
 // 显示任务
 void App_Main_Display(void *pvParameters);
 
@@ -49,7 +48,6 @@ void App_Main_Display(void *pvParameters)
     {
 
         // 进入临界区
-
         taskENTER_CRITICAL();
         // 刷新显示
         App_Display_Run();
