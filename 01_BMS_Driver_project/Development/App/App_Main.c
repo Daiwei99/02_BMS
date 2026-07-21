@@ -1,7 +1,6 @@
 #include "App_Main.h"
 // 显示任务
 void App_Main_Display(void *pvParameters);
-
 #define APP_MAIN_DISPLAY_STACK_SIZE 512
 #define APP_MAIN_DISPLAY_PRIORITY 5
 #define APP_MAIN_DISPLAY_NAME "App_Main_Display"
