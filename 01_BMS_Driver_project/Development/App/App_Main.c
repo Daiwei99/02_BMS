@@ -13,13 +13,12 @@ TaskHandle_t dis_task_handle = NULL;
  */
 void App_Main_Start(void)
 {
-
     // 进入临界区
     taskENTER_CRITICAL();
 
     // 创建显示任务
-    BaseType_t ret = xTaskCreate(App_Main_Display, APP_MAIN_DISPLAY_NAME, APP_MAIN_DISPLAY_STACK_SIZE, NULL, APP_MAIN_DISPLAY_PRIORITY, &dis_task_handle);
-    if (ret == pdPASS)
+    BaseType_t res = xTaskCreate(App_Main_Display, APP_MAIN_DISPLAY_NAME, APP_MAIN_DISPLAY_STACK_SIZE, NULL, APP_MAIN_DISPLAY_PRIORITY, &dis_task_handle);
+    if (res == pdPASS)
     {
         DEBUG_PRINTLN("App_Main_Display Task Create Success");
         /* code */
