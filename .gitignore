@@ -17,6 +17,7 @@ MDK-ARM/*/
 *.scr
 *.iex
 *.sct
+*.bak
 Objects/
 Listings/
 
@@ -24,6 +25,14 @@ Listings/
 *.uvguix.*
 *.uvoptx
 JLinkLog.txt
+
+# 远程仓库原有规则（旧目录结构 01_BMS_project/）
+01_BMS_project/MDK-ARM/DebugConfig/
+01_BMS_project/MDK-ARM/RTE/
+01_BMS_project/MDK-ARM/*.uvguix.*
+01_BMS_project/MDK-ARM/*.uvoptx
+01_BMS_project/MDK-ARM/Objects/
+01_BMS_project/MDK-ARM/Listings/
 
 # ---- IDE / 编辑器 ----
 .vscode/
