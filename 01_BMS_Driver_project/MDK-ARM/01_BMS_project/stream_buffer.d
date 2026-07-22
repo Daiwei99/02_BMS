@@ -1,0 +1,14 @@
+01_bms_project\stream_buffer.o: ..\Development\Mid\FreeRTOS\stream_buffer.c
+01_bms_project\stream_buffer.o: D:\shangguigu\STM32_MDK\ARM\ARMCC\Bin\..\include\string.h
+01_bms_project\stream_buffer.o: ../Development/Mid/FreeRTOS/include/FreeRTOS.h
+01_bms_project\stream_buffer.o: D:\shangguigu\STM32_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+01_bms_project\stream_buffer.o: D:\shangguigu\STM32_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+01_bms_project\stream_buffer.o: ../Development/Mid/FreeRTOS/include/FreeRTOSConfig.h
+01_bms_project\stream_buffer.o: ../Development/Mid/FreeRTOS/include/projdefs.h
+01_bms_project\stream_buffer.o: ../Development/Mid/FreeRTOS/include/portable.h
+01_bms_project\stream_buffer.o: ../Development/Mid/FreeRTOS/include/deprecated_definitions.h
+01_bms_project\stream_buffer.o: ../Development/Mid/FreeRTOS/include/portmacro.h
+01_bms_project\stream_buffer.o: ../Development/Mid/FreeRTOS/include/mpu_wrappers.h
+01_bms_project\stream_buffer.o: ../Development/Mid/FreeRTOS/include/task.h
+01_bms_project\stream_buffer.o: ../Development/Mid/FreeRTOS/include/list.h
+01_bms_project\stream_buffer.o: ../Development/Mid/FreeRTOS/include/stream_buffer.h
