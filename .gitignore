@@ -1,0 +1,39 @@
+# ---- Keil MDK-ARM 编译产物 ----
+# 编译输出目录（.o/.axf/.map/.crf/.d/.hex 等中间文件）
+01_BMS_Driver_project/MDK-ARM/01_BMS_project/
+MDK-ARM/*/
+*.axf
+*.hex
+*.bin
+*.o
+*.crf
+*.d
+*.dep
+*.lnp
+*.map
+*.htm
+*.build_log.htm
+*.lst
+*.scr
+*.iex
+*.sct
+Objects/
+Listings/
+
+# Keil 用户/临时文件
+*.uvguix.*
+*.uvoptx
+JLinkLog.txt
+
+# ---- IDE / 编辑器 ----
+.vscode/
+*.log
+*.log.lock
+
+# ---- STM32CubeMX ----
+# 保留 .ioc；如需忽略可取消下一行注释
+# *.ioc
+
+# ---- 系统文件 ----
+Thumbs.db
+.DS_Store
